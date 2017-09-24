@@ -15,10 +15,7 @@
     "saveSpec": null,
     "fetchSpec": "latest"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
+  "_requiredBy": ["#USER", "/"],
   "_resolved": "https://registry.npmjs.org/nightmare/-/nightmare-2.10.0.tgz",
   "_shasum": "e9c5d590bb296f59685fd48218c2fbac44767b21",
   "_spec": "nightmare",
@@ -34,7 +31,7 @@
     "debug": "^2.2.0",
     "deep-defaults": "^1.0.3",
     "defaults": "^1.0.2",
-    "electron": "^1.4.4",
+    "electron": "1.7.6",
     "enqueue": "^1.0.2",
     "function-source": "^0.1.0",
     "jsesc": "^0.5.0",
@@ -65,10 +62,7 @@
     "node": ">=4.0.0"
   },
   "homepage": "https://github.com/segmentio/nightmare#readme",
-  "keywords": [
-    "nightmare",
-    "electron"
-  ],
+  "keywords": ["nightmare", "electron"],
   "license": "MIT",
   "main": "lib/nightmare.js",
   "name": "nightmare",
